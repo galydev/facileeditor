@@ -1,0 +1,9 @@
+<p>Start editing to see some magic happen :) (: 😢</p>
+
+<div style="height: 500px; widht:500px">
+  <ngx-monaco-editor
+    [options]="editorOptions"
+    [(ngModel)]="code"
+    (init)="editorInit($event)"
+  ></ngx-monaco-editor>
+</div>
